@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+  }
+  
+  #head{
+    text-align: center;
+    height: 120px;
+    font-size: 35px;
+    color: #9b59b6;
+    padding:20px;
+    color: white;
+    background-image: url("movie.jpg");
+  }
+  
+  h2{
+     margin:0;
+  }
+
+  #sec{
+    width: 100%;
+    height:380px;
+  
+  }
+  
+  #navi {
+    float: left;
+    width: 25%;
+    height: 460px; 
+    padding:2.5%;
+    font-size: 20px;  
+    background-image: url(showing.jpg);
+  }
+  
+  #content{
+    float: left;
+    width: 65%;
+    color: black;
+    height: 460px;
+    text-align: center;
+    padding:2.5%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+    background-position: center;
+    background-image: url("cine.jpg");
+  }
+  
+  #footer{
+    float:left;
+    background-color: #9b59b6;
+    text-align:center;
+    color: black;
+    width:100%;
+    height:48px;
+  }
+ 
+label{
+    font-family: verdana;
+    color: rgb(2, 44, 44);
+}
+input[type=text],
+input[type=email],
+input[type=submit] {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+form .button input{
+   height: 100%;
+   width: 50%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ 
+
+
+
+

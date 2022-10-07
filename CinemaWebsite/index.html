@@ -1,0 +1,79 @@
+<!DOCTYPE html >
+<html >
+   <head>
+      <title>THE WORLD OF CINEMA</title>
+      <link rel="stylesheet" href="style.css">  
+   </head>
+
+   <body>
+    <form action="ordersummary.php" method="post">
+        <div id="head">
+             <h2>THE WORLD OF CINEMA</h2>
+        </div>
+
+        <div id="sec">
+              <div id="navi">
+                    <ul><br><br>
+                        <h2>2022 Movie Releases:</h2><br><br>
+
+                            <li><a>1. Fall</a></li>
+                            <li><a>2. Bullet Train </a></li>
+                            <li><a>3. Orphan: First Kill </a></li>
+                            <li><a>4. Thor: Love and Thunder</a></li>
+                            <li><a>5. Avatar: The Way of Water</a></li>
+                    </ul>
+             </div>
+              
+                 <form class = "form">
+                <div id="content">
+                        <h2>Customer Registration:</h2><br>
+                        <label> Firstname: </label> 
+                        <input type="text" name="fname" placeholder= "Enter your Firstname" required><br>
+                        <label> Lastname: </label>
+                        <input type="text" name="lname" placeholder="Enter your Lastname" required><br>
+                        <label> Address:</label>
+                        <input type="text" name="address" placeholder="Enter your Address" required><br><br>
+                        <label> Age:</label>
+                        <input type="number" name="age" placeholder="Age" required><br><br>
+
+                        <label>   
+                        Gender: <br>
+                        </label>  
+                        <input type="radio" value="Male" name="gender" checked > Male   
+                        <input type="radio" value="Female" name="gender"> Female   
+                        <input type="radio" value="Other" name="gender"> Other  
+                        <br><br>
+
+                        <label>Movie Number to Watch:</label>    
+                        <input type="number" name="movie" min="1" max="5" placeholder="Movie" required><br><br>
+    
+                        <label>Number of ticket to purchase:</label>
+                        <input type="number" name="ticket" min="1" max="10" placeholder="Ticket#" required><br><br>
+
+                        <label>Select add-ons for your order:</label><br>
+                        <input type="checkbox" name="orders" value="Burger">Burger<br>
+                        <input type="checkbox" name="orders" value="Popcorn">Popcorn<br>
+                        <input type="checkbox" name="orders" value="Drinks">Drinks<br><br>
+                       
+
+                       <div class="button">
+                        <input type="submit" value="Submit Order">
+                        </div><br>
+                            
+                    
+                            <audio controls>
+                       <source src="BLACKPINK - 'Pink Venom'.mp3"></audio><br>
+                
+     </div>
+            </div>
+
+                </form>
+       </div>
+
+       <div id="footer">
+              <p>Thank You and Enjoy!</p>
+       </div>
+
+    </body>
+
+</html>
