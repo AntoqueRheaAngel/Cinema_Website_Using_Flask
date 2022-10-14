@@ -1,5 +1,6 @@
 # Cinema-Website_Using_Python_Flask
 Make sure that you have flask installed in your PC.
+
 This is a basic template for a web shop.
 
 Steps:
