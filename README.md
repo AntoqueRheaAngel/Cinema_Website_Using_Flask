@@ -1,4 +1,4 @@
-# Cinema-Website_Using_Python_Flask
+# Cinema_Website
 Make sure that you have flask installed in your PC.
 
 Steps:
